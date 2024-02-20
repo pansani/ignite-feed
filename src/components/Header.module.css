@@ -1,0 +1,13 @@
+/** @format */
+
+.header {
+  display: flex;
+  justify-content: center;
+  background: #202024;
+  height: 100px;
+  align-items: center;
+}
+
+.writtenLogo {
+  font-size: 26px;
+}
