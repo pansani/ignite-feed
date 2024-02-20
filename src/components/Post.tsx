@@ -15,7 +15,7 @@ interface Author {
 }
 
 interface Content {
-  type: "paragraph" | "link";
+  type: string;
   content: string;
 }
 
@@ -93,7 +93,7 @@ export default function Post({ author, publishedAt, content }: PostProps) {
                 <a href="#">{line.content}</a>
               </p>
             );
-          }
+          } else return null;
         })}
       </div>
 
